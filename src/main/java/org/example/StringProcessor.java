@@ -22,10 +22,6 @@ public class StringProcessor {
         return words.length;
     }
 
-//    private static boolean isNumeric(String str) {
-//        return str != null && str.matches("[(]?[0-9.]+[)]?");
-//    }
-
     public Double calculateExpression(String expression) {
         char[] tokens = expression.toCharArray();
         Stack<Double> values = new Stack<>();

@@ -1,7 +1,5 @@
 package org.example;
 
-import java.io.PrintStream;
-
 public class Main {
     public static void main(String[] args) {
         StringProcessor sp = new StringProcessor();
@@ -15,7 +13,5 @@ public class Main {
         System.out.println(sp.calculateExpression("30 / (4 + 1)"));
         System.out.println(sp.calculateExpression("(9 + 3) / (2 * 4)"));
         System.out.println(sp.calculateExpression("((7 * 3) - (4 * 2)) / 5"));
-
-//        System.out.println(sp.hasPrecedence('*', '+'));
     }
 }
